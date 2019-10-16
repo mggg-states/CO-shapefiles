@@ -5,6 +5,7 @@ This shapefile comes from Todd Bleess of the Colorado State Demographer's Office
 The 2018 Colorado precinct shapefile was made available to us by Todd Bleess of the Colorado State Demographer's Office. Election data come from the [Colorado Secretary of State's Office](https://www.sos.state.co.us/pubs/elections/Results/Archives.html). 2010 Decennial Census demographic data were downloaded from the [Census API](https://api.census.gov/data/2010/dec/sf1). The 2010 census block shapefile for Minnesota was downloaded from the US Census Bureau’s [TIGER/Line Shapefiles](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html).
 
 ## Processing
+Precincts for certain counties were not included in the shapefile provided by the Demographer's Office and were digitized from maps provided by the county. Those counties are: Boulder, Denver, Douglas, and El Paso. For Las Animas county, the voter file was geocoded and used to identify precinct boundaries. Demographic data were aggregated from the census block level and precincts were assigned to districts using [MGGG's proration software](https://github.com/mggg/maup).
 
 ## Metadata
 * `COUNTYFP`: County FIPS Code
