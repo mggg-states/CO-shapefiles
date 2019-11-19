@@ -54,7 +54,7 @@ Precincts for certain counties were not included in the shapefile provided by th
 * `2MOREVAP`: Two or more races, non-hispanic, voting age population
 
 ## Projection
-These shapefiles use a NAD83/UTM zone 13N projection (EPSG: 2957).
+This shapefile uses a NAD83/UTM zone 13N projection (EPSG: 2957).
 
 ## Rating
 We give this shapefile an A rating. All data was obtained from the state government and was processed by MGGG collaborators. It was audited by MGGG staff.
