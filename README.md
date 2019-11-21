@@ -14,7 +14,6 @@ Precincts for certain counties were not included in the shapefile provided by th
 * `CD116FP`: Congressional district ID
 * `SLDUST`: State Senate district ID
 * `SLDLST`: State House district ID
-* `PRECID`: Precinct ID
 * `AG18D`: Number of votes for 2018 Democratic attorney general candidate
 * `AG18R`: Number of votes for 2018 Republican attorney general candidate
 * `SOS18D`: Number of votes for 2018 Democratic secretary of state candidate
